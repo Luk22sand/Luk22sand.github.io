@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ai blog</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/f1a.png" rel="icon">
+  <link href="assets/img/f1.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <a href="index.html" class="logo me-auto" alt="" class="img-fluid"></a>
+    
+      <!-- Uncomment below if you prefer to use an image logo -->
+      
+
+
+        <nav id="navbar" class="navbar">
+          <ul>
+          
+            <li><a class="nav-link scrollto " href="../index.html#Ai"><h5>Back to homepage</h5></a></li>
+
+      
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+        
+      </nav><!-- .navbar -->
+
+      
+
+
+    </div>
+  </header><!-- End Header -->
+
+ 
+
+  <main id="main">
+
+ 
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h2>Power of APIs: Flask</h2>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+    <!-- ======= General Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content" >
+
+              <div class="mb-1"><h5>
+                
+                In the ever-evolving landscape of Ai development, the importance of APIs (Application Programming Interfaces) cannot be overstated. 
+                APIs serve as the bridge that allows different software applications to communicate with each other, enabling seamless data exchange and integration. 
+                Flask is a micro web framework for Python used as a tool for building APIs. 
+                </h5>            
+              </div>
+                
+
+        <div class="row content" >
+
+          <div class="section-title pt-3"><h5><strong>Understanding Flask's Philosophy</strong></h5></div>
+          <div class="mb-4"><h5>
+                
+            Flask's philosophy revolves around simplicity and flexibility. It doesn't impose a rigid structure on developers, allowing them to choose the components they need. 
+            This minimalist approach makes Flask an ideal choice for building APIs, where customization and control are often needed.
+          
+            </h5>
+          </div>            
+        </div>
+
+        <div class="row content" >
+
+          <div class="section-title pt-3"><h5><strong>Getting Started with Flask</strong></h5></div>
+          <div class="mb-3"><h5>
+                
+            Setting up a Flask project is a few lines of code where you can have a basic web application up and running. 
+            Flask's lightweight nature makes it an excellent choice for projects where performance and efficiency are key concerns.
+
+            <p>&nbsp;</p>
+            <img src="./assets/img/start_flask.png" class="mb-3 img-fluid" alt="">
+           
+
+            <p>In above example, a simple "Hello, World!" application has been created.
+            However, Flask's real power lies in its ability to handle more complex scenarios, such as <strong>building APIs.</strong>  </p>
+            </h5>
+          </div>            
+        </div>
+
+        <div class="row content" >
+
+          <div class="section-title pt-3"><h5><strong>Creating APIs with Flask</strong></h5></div>
+          <div class="mb-3"><h5>
+                
+            Flask makes API development straightforward by providing tools and extensions specifically designed for this purpose. One such extension is Flask-RESTful, 
+            which simplifies the process of building RESTful APIs.
+
+            <p>&nbsp;</p>
+            <img src="./assets/img/start_api.png" class="mb-3 img-fluid" alt="">
+            
+
+            <p>Above example, presents a basic API endpoint using Flask-RESTful. The HelloWorld class defines the behavior when a GET request is made to the endpoint. 
+            Flask-RESTful takes care of the underlying complexities, allowing developers to focus on defining the API's logic. </p>
+
+          
+            <img src="./assets/img/ApiRun.png" class="mb-3 img-fluid" alt="">
+          
+            <p>#Code executed in terminal.</p>
+
+
+            <div class="row content" >
+
+              <div class="section-title pt-3"><h5><strong>Basic HTTP methods</strong></h5></div>
+    
+              <div class="mb-2"><h5>
+                    
+                <p> HTTP methods, also known as HTTP verbs, play a pivotal role in API (Application Programming Interface) development, defining the actions that can be performed on resources. 
+                  The primary HTTP methods used in API interactions are:  </p>
+
+                <p><strong>1. GET:</strong></p>
+                  <p>Retrieves data from the specified resource. It doesn't modify the resource, and 
+                    multiple identical requests produce the same result as a single request.</p>
+    
+                <p><strong>2. POST:</strong></p>
+                <p>Submits data to be processed to a specified resource. It's often used for creating new resources, and the data 
+                  submitted is typically included in the body of the request.</p>
+
+                <p><strong>3. PUT:</strong></p>
+                <p>Updates a resource or creates it if it doesn't exist at the specified URL. The entire resource is replaced with the data provided in the request, 
+                  making it "idempotent" (overwrites same resource). </p>
+
+                <p><strong>4. PATCH:</strong></p>
+                <p>Partially updates a resource, applying modifications to it. It's more bandwidth-friendly than PUT, as it only sends the changes instead of the 
+                  entire resource. It is also idempotent.</p>
+
+                <p><strong>5. DELETE:</strong></p>
+                <p>Removes a resource identified by the given URL. It is an idempotent operation, meaning that making multiple identical requests has the 
+                  same effect as a single request.</p>
+            
+                  </h5>            
+              </div>
+              
+
+            <div class="row content" >
+
+              <div class="section-title pt-3"><h5><strong>Handling Requests and Responses</strong></h5></div>
+              <div class="mb-3"><h5>
+                    
+                Flask simplifies the handling of HTTP requests and responses. By using decorators, developers can specify the methods 
+                that should be executed for different HTTP verbs (POST method added to endpoint "/greet")
+    
+                <p>&nbsp;</p>
+                <img src="./assets/img/ApiPost.png" class="mb-3 img-fluid" alt="">
+               
+    
+                <p>In this example endpoint (accepts POST method) expects a JSON payload containing a 'name' parameter. The server will respond with a personalized greeting. 
+                  Flask's request object simplifies the extraction of data from incoming requests (process below): </p>
+
+                  <p>&nbsp;</p>
+                  <img src="./assets/img/curlPost.png" class="mb-3 img-fluid" alt="">
+                  <p>#Curl request -POST method- with payload "Test Name" will be sent to runnig API endpoint </p>
+                  <p>&nbsp;</p>
+                  <img src="./assets/img/apiHandl.png" class="mb-3 img-fluid" alt="">
+                  <p>#API accepts request code:200 and gives option for endpoint to handle request of greeting "Test Name!" </p>
+                  <p>&nbsp;</p>
+                  <img src="./assets/img/ApiResp.png" class="mb-3 img-fluid" alt="">
+                  <p>#Endpoint replies with "Hello, Test Name" to request sender, which ends the process as API itself is stateless. </p>
+
+
+                </h5>
+              </div>            
+            </div>
+
+            <div class="row content" >
+
+              <div class="section-title pt-3"><h5><strong>Testing and Documentation</strong></h5></div>
+              <div class="mb-3"><h5>
+                    
+                Flask also provides tools for testing and documenting APIs. The built-in testing client allows developers to simulate HTTP requests and validate the API's behavior. 
+                Additionally, extensions like Flask-RESTPlus offer automatic API documentation generation.
+              
+                </h5>
+              </div>            
+            </div>
+            
+            <div class="row content" >
+
+              <div class="section-title pt-3"><h5><strong>Conclusion</strong></h5></div>
+              <div class="mb-3"><h5>
+                    
+                Exploring Flask for API development opens up a many possibilities. Its simplicity make it an excellent choice for medium projects. For sure I'll take a look on it 
+                once choosing dev kit to create Home GPT solution.
+              
+                </h5>
+              </div>            
+            </div>
+
+
+            
+
+            
+            </h5>
+          </div>            
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+      </div>    
+    </section>
+    
+    <!-- End General Section -->
+
+
+  </main><!-- End #main -->
+
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
